@@ -127,12 +127,41 @@ main{
 
 
 /* ------------------------------------------ Some Facts Syles -------------------------------------*/
-
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
 .some-facts-description{
     color: #727272;
+    max-width: 540px;
+    margin-top: -30px;
+    margin-bottom: 30px;
 }
 
+.fact-card{
+    border: 1px solid #ff900e;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.fact-number{
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #727272;
+}
 
 
 
