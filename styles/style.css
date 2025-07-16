@@ -156,6 +156,7 @@ main{
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 .fact-name{
     font-weight: 600;
     font-size: 1.25rem;
@@ -163,7 +164,23 @@ main{
     color: #727272;
 }
 
+/* ------------------------------------------------ Sponsor Styles -------------------------------------------- */
 
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
 
 
 
@@ -184,8 +201,16 @@ main{
         flex-direction: column;
     }
 
-    .teams-img-container{
+    .teams-img-container,
+    .facts-container,
+    .sponsor-companies{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .facts-container,
+    .sponsor-companies{
+        justify-items: center;
+        gap: 24px;
     }
 
     .team-features{
