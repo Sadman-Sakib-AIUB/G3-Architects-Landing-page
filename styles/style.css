@@ -113,16 +113,22 @@ main{
 
 .feature-description{
     color: #727272;
-    font-size: 1rem;
+    font-size: rem;
 }
 
 #quick-list{
     color: #727272;
     font-weight: 500;
+    font-size: 3rem;
+}
+
+#of-our{
+    font-size: 3rem;
 }
 
 #features{
     color: #ff900e;
+    font-size: 3rem;
 }
 
 
