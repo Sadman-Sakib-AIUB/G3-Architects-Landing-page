@@ -134,6 +134,9 @@ main{
     gap: 145px;
     margin-top: 130px;
 }
+.features img{
+    width: 100%;
+}
 
 #feature-border{
     border-left: 5px solid #ff900e;
@@ -152,6 +155,22 @@ main{
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+#experience-badge{
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#exp-small{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 
@@ -212,6 +231,23 @@ main{
 }
 
 
+/* -------------------------------------------- Footer styles ----------------------------------- */
+
+footer{
+    margin: 50px auto;
+    width: 1000px;
+    
+    
+}
+
+.footer-text{
+    text-align: center;
+    color: #727272;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
 
 
 
@@ -224,7 +260,9 @@ main{
 @media screen and (max-width:576px) {
     .menu, 
     .navbar, 
-    .teams{
+    .teams,
+    .features
+    {
         flex-direction: column;
     }
 
@@ -243,6 +281,28 @@ main{
     .team-features{
         margin-left: 20px;
     }
+
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    footer{
+    margin: 50px auto;
+    width: 400px;
+    
+    
+    }
+
+    .footer-text{
+        font-size: small;
+        text-align: center;
+
+    }
+
+    
+
+    
 
     
 }
