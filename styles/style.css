@@ -272,6 +272,11 @@ footer{
         flex-direction: column;
     }
 
+    .menu{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
     .teams-img-container,
     .facts-container,
     .sponsor-companies{
